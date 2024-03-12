@@ -223,7 +223,7 @@ body h3 {
   margin-bottom: 3px;
 }
 .dependency-group li span {
-  color: #666;
+  color: var(--neutralForeground1Rest);
 }
 .borderless > tbody > tr > td {
   border: none;
@@ -3174,6 +3174,15 @@ p.frameworktableinfo-text {
 }
 .page-upload #browse-for-package-button {
   margin: 0;
+}
+.page-upload h2 a {
+  color: var(--neutralForeground1Rest);
+}
+.page-upload #upload-package-container h2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .warning-icon {
   vertical-align: bottom;
